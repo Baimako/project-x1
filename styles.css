@@ -1,0 +1,70 @@
+body {
+  background-color: lightgrey;
+  font-family: cursive;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+h1 {
+  font-size: 50px;
+}
+.header {
+  text-align: center;
+}
+.rubrik {
+  font-size: 25px;
+  padding-left: 25px;
+}
+.hobbyLåda {
+  border: 2px solid purple;
+  padding: 10px;
+  font-size: 20px;
+  background-color: rgb(193, 180, 196);
+  max-width: 500px;
+  border-radius: 20px;
+}
+.bild {
+  height: auto;
+  max-width: 500px;
+  display: block;
+  border: 2px solid purple;
+  border-radius: 10px;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.cv {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.cvLåda {
+  border: 2px solid purple;
+  padding: 10px;
+  font-size: 20px;
+  background-color: rgb(163, 138, 167);
+  max-width: 1040px;
+  border-radius: 20px;
+}
+.container {
+  width: fit-content;
+}
+.varför {
+  border: 2px solid purple;
+  padding: 10px;
+  font-size: 20px;
+  background-color: rgb(179, 154, 184);
+  max-width: 1040px;
+  border-radius: 20px;
+}
+.varför p {
+  padding-left: 25px;
+}
+li {
+  padding-bottom: 10px;
+}
+section {
+  margin: 20px;
+}
